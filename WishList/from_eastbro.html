@@ -1,0 +1,33 @@
+<br>
+{% if user.is_authenticated %}
+    로그인성공!
+    {{ user.username }}님 환영합니다.
+    <a href="{% url 'user:logout' %}">로그아웃</a>
+{% else %}
+<form action="" method="POST">
+    {% csrf_token %}
+    <input name="username" type="text">
+    <input name="password" type="password">
+    <input type="submit" value="로그인">
+</form>
+<a href="{% url 'user:signup' %}">회원가입</a>
+{% endif %}
+
+
+
+<form action="" method="POST">
+    {% csrf_token %}
+    <p>아이디</p>
+    <input name="username" type="text">
+    <p>비밀번호</p>
+    <input name="password" type="password">
+    <p>성</p>
+    <input name="firstname" type="text">
+    <p>이름</p>
+    <input name="lastname" type="text">
+    <p>이메일</p>
+    <input name="email" type="text">
+    <p>학번</p>
+    <input name="student_id" type="text">
+    <input type="submit" value="회원가입">
+</form>
