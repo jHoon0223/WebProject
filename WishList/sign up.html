@@ -39,24 +39,27 @@
             <a href="">LEE.J.H</a></li>
     </ul>
 
-    <ul class="register">
-        <h4>Sign Up</h4>
-
-        <li><input type="radio" name="male">Male</li>
-        <li><input type="radio" name="female" placeholder="FEMALE">Female</li>
-        <li><input type="text" name="name" placeholder="NAME"></li>
-        <li><input type="text" name="id" placeholder="ID"></li>
-        <li><input type="password" name="pw" placeholder="PASSWORD"></li>
-        <li><input type="password" name="repw" placeholder="Reenter PASSWORD"></li>
-        <li><input type="text" name="email" placeholder="E-MAIL"></li>
-        <li><input type="tel" name="tel" placeholder="Phone Number"></li>
-        <li><input type="text" name="add1" placeholder="ADDRESS"></li>
-        <li><input type="text" name="add2" placeholder="Detailed ADDRESS"></li><br>
-
-        <li><input type="checkbox" name="con1">Consent to the collection and use of personal information</li>
-
-        <input type="submit" name="register" value="SIGN UP">
-    </ul>
+    <form action="" method="POST">
+        <ul class="register">
+            <h3>Sign Up</h3>
+    
+            <li><label><input type="radio" name="gender" value="male">Male</label></li>
+            <li><label><input type="radio" name="gender" value="female">Female</label></li>
+            <li><input type="text" name="name" placeholder="NAME" required></li>
+            <li><input type="text" name="id" placeholder="ID" required></li>
+            <li><input type="password" name="pw" placeholder="PASSWORD" required></li>
+            <li><input type="password" name="repw" placeholder="Reenter PASSWORD" required></li>
+            <li><input type="text" name="email" placeholder="E-MAIL" required></li>
+            <li><input type="tel" name="tel" placeholder="Phone Number"></li>
+            <li><input type="text" name="add1" placeholder="ADDRESS"></li>
+            <li><input type="text" name="add2" placeholder="Detailed ADDRESS"></li><br>
+    
+            <li><label><input type="checkbox" name="con1">Consent to the collection and use of personal information</label></li>
+    
+            <input type="submit" name="register" value="SIGN UP">
+            <input type="reset" name="reset" value="RESET">
+        </ul>
+    </form>
 
 </body>
 </html>
