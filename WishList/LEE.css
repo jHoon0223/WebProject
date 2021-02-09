@@ -109,7 +109,6 @@ a {
     display: block;
 }
 
-
 .items a:hover {
     font-size: 20px;
     color: var(--accent-color);
