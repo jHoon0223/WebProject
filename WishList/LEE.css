@@ -101,7 +101,7 @@ a {
 .items li {
     display: inline-block;
     list-style: none;
-    padding: 0px 10px 50px 10px;
+    padding: 0px 10px 10px 10px;
 }
 
 .items a {
