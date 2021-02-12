@@ -105,3 +105,10 @@ a {
     padding: 6px;
     margin: 30px;
 }
+
+.tail {
+    text-align: center;
+    font-size: 12px;
+    background-color: var(--background-color);
+    padding: 10px;
+}

@@ -113,3 +113,10 @@ a {
     background-color: var(--accent-color);
     border-radius: 4px;
 }
+
+.tail {
+    text-align: center;
+    font-size: 12px;
+    background-color: var(--background-color);
+    padding: 10px;
+}

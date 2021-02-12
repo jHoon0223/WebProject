@@ -114,3 +114,10 @@ a {
     color: var(--accent-color);
     display: block;
 }
+
+.tail {
+    text-align: center;
+    font-size: 12px;
+    background-color: var(--background-color);
+    padding: 10px;
+}
