@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order_style.css">
+    <script src="active.js" defer></script>
+    <link rel="shortcut icon" href="images/myWISHLIST.png">
+    <title>WishList : Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0b51e7d6ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="menubar">
+        <div class="logo">
+            <i class="fas fa-gifts"></i>
+            <a href="http://jhoon.dothome.co.kr/WishList/main.html">WishList</a>
+        </div>
+
+        <ul class="menu">
+            <li><a href="">About</a></li>
+            <li><a href="">QnA</a></li>
+            <li><a href="http://jhoon.dothome.co.kr/WishList/login.html">Log-in</a></li>
+        </ul>
+
+        <a href="#" class="toggle">
+            <i class="fas fa-bars"></i>
+        </a>
+    </nav>
+
+    <ul class="member">
+        <li><i class="fas fa-wine-bottle"></i>
+            <a href="">KIM.D.H</a></li>
+        <li><i class="far fa-flushed"></i>
+            <a href="">KIM.S.H</a></li>
+        <li><i class="fas fa-seedling"></i>
+            <a href="">KIM.Y.R</a></li>
+        <li><i class="fas fa-futbol"></i>
+            <a href="">LEE.J.H</a></li>
+    </ul>
+
+    <form action="" method="POST" class="form">
+        <ul class="order">
+            <h2>Order</h2>
+            <fieldset>
+                <legend>구매자 정보</legend>
+                <li><input type="text" name="name" placeholder="NAME" required></li>
+                <li><input type="text" name="email" placeholder="E-MAIL" required></li>
+                <li><input type="tel" name="tel" placeholder="Phone Number" required></li>
+            </fieldset>
+            
+            <fieldset>
+                <legend>배송지 정보</legend>
+                <li><input type="text" name="add1" placeholder="ADDRESS" size="50" required></li>
+                <li><textarea name="request" placeholder="Delivery request" cols="70" rows="3"></textarea></li>
+            </fieldset>
+        </ul>
+
+        <ul class="pay">
+            <h2>Payment</h2>
+            <fieldset>
+                <legend>결제 정보</legend>
+                <li><p>Cost : ￦1,350,000</p></li>
+                <li><p>Delivery Charge : ￦0</p></li>
+                <li><p>---------------------------</p></li>
+                <li><p>Total Cost : ￦1,350,000</p></li>
+            </fieldset>
+
+            <fieldset>
+                <legend>결제 방법</legend>
+                <select name="payment" size="5" id="payment" required>
+                    <option value="account">계좌이체</option>
+                    <option value="credit">신용/체크카드</option>
+                    <option value="corporate">법인카드</option>
+                    <option value="phone">휴대폰</option>
+                    <option value="virtual">무통장입금(가상계좌)</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>현금 영수증 (선택 사항)</legend>
+                <li><input type="tel" name="tel" placeholder="Phone Number"></li>
+            </fieldset>
+
+            <div class="button">
+                <input type="submit" value="ORGER">
+                <input type="reset" value="RESET">
+            </div>
+
+        </ul>
+
+    </form>
+
+    <div class="tail">
+        <p>숭실대학교 컴퓨터학부 | 김동형, 김시현, 김유림, 이재훈 | 서울특별시 동작구 상도로 369 숭실대학교 (우편번호 06978)</p>
+        <p>사업자 등록 번호 : 99-00-01-02 | 통신판매 신고번호 : 2020-서울동작구-2021</p>
+        <p>한국 지사 고객센터 : 010-2850-4250 | 아부다비 지사 고객센터 : 010-6766-1776</p>
+    </div>
+
+</body>
+</html>
