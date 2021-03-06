@@ -108,10 +108,10 @@ a {
 .intro_menu .caption {
     position: absolute;
     top:200px;
-    width:480px;
+    width:482px;
     height:1080px;
     padding-top:20px;
-    background:rgba(252, 252, 252, 0.6);
+    background:rgba(252, 252, 252, 0.4);
     opacity:0;
     z-index:10;
 }
